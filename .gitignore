@@ -106,3 +106,5 @@ dist
 /playwright-report/
 /playwright/.cache/
 /.idea/
+/allure-results/
+/allure-report/
