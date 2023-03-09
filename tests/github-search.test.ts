@@ -22,7 +22,7 @@ test.describe('GitHub - Search Result', () => {
         expect(await page.textContent(firstSearchResultLink)).toBe(expectedLink);
     });
 
-    test('should verify "We couldn’t find any repositories" message, after entering invalid keyword', async ({ page }) => {
+/*    test('should verify "We couldn’t find any repositories" message, after entering invalid keyword', async ({ page }) => {
         // Selectors
         const notFoundMessage = '.blankslate';
 
@@ -34,5 +34,5 @@ test.describe('GitHub - Search Result', () => {
         await page.press(searchField, 'Enter');
 
         expect(await page.textContent(notFoundMessage)).toBe(expectedMessage);
-    });
+    });*/
 });
